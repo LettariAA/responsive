@@ -1,0 +1,61 @@
+#grid{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas: "caja1 caja2 caja2"
+                        "caja1 caja3 caja4"
+                        "caja1 caja5 caja4"
+                        "caja1 caja6 caja6";
+
+                        text-align: center;
+}
+
+#cajaUno{
+    background-color: darkolivegreen;
+    width: 100%;
+    grid-area: caja1;
+}
+
+#cajaDos{
+    background-color: darksalmon;
+    width: 100%;
+    grid-area: caja2;
+}
+
+#cajaTres{
+    background-color: darkslategray;
+    width: 100%;
+    grid-area: caja3;
+}
+
+#cajaCuatro{
+    background-color: darkturquoise;
+    width: 100%;
+    grid-area: caja4;
+}
+
+#cajaCinco{
+    background-color: firebrick;
+    width: 100%;
+    grid-area: caja5;
+}
+
+#cajaSeis{
+    background-color: gold;
+    width: 100%;
+    grid-area: caja6;
+}
+
+@media screen and (min-width: 600px){
+
+    #grid{
+        
+    grid-template-columns: 100px 200px 200px;
+    grid-template-rows: 200px 200px 100px;
+    grid-template-areas: "caja1 caja1 caja1"
+                        "caja3 caja4 caja4"
+                        "caja3 caja5 caja2"
+                        "caja6 caja6 caja6";
+    }
+}
+

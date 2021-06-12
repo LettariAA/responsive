@@ -1,0 +1,73 @@
+#caja{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    animation-name: colores;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+
+
+
+
+}
+
+@keyframes colores{
+
+    0%{
+        background-color: hotpink;
+    }
+
+    25%{
+        background-color: indigo;
+        transform: rotate(45deg);
+    }
+
+    50%{
+        background-color: khaki;
+    }
+
+    75%{
+        background-color: mediumblue;
+        transform: rotate(85deg);
+    }
+
+    100%{
+        background-color: mediumspringgreen;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

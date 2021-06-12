@@ -1,0 +1,32 @@
+#cajaFlex{
+    background-color: darkgoldenrod;
+    height: 800px;
+    display: flex;
+}
+
+
+#cajaUno{
+    background-color: darkgray;
+    width: 100%;
+    
+}
+
+#cajaDos{
+    background-color: darkgreen;
+    width: 100%;
+}
+
+#cajaTres{
+    background-color: darkmagenta;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+}
+
+@media only screen and (min-width: 600px){
+}
+
+@media only screen and (min-width: 768px){
+}
+
